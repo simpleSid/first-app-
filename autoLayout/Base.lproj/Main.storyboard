@@ -19,7 +19,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2z-Zb-9JF">
-                                <rect key="frame" x="159" y="432" width="96" height="42"/>
+                                <rect key="frame" x="20" y="750" width="159" height="112"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="fdo-1e-dry"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="159" id="nuf-YR-78K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="UIButton">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGN-Lh-vbk">
+                                <rect key="frame" x="235" y="69" width="159" height="112"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="NVG-8u-D2r"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="159" id="sy9-Rk-4G6"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="UIButton">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -28,8 +45,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.57626854388556492" blue="0.17712581121988613" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="b2z-Zb-9JF" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ftY-wV-beo"/>
-                            <constraint firstItem="b2z-Zb-9JF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="q3Q-NK-eTS"/>
+                            <constraint firstItem="jGN-Lh-vbk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="1TV-Pj-Dkq"/>
+                            <constraint firstItem="b2z-Zb-9JF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4DF-zS-RlP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="b2z-Zb-9JF" secondAttribute="trailing" constant="235" id="Rby-or-SDs"/>
+                            <constraint firstItem="jGN-Lh-vbk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="235" id="UzN-1A-HCE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b2z-Zb-9JF" secondAttribute="bottom" id="X3d-XW-I24"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jGN-Lh-vbk" secondAttribute="trailing" constant="20" id="vHU-w6-ucX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
