@@ -23,7 +23,28 @@ class ViewController: UIViewController {
     }
     
     @IBAction func findDay() {
+        let calendar = Calendar.current
         
+        var dateComponents = DateComponents()
+        
+        guard let day = Int(dateTF.text!), let month = Int(montTF.text!), let year = Int(yearTF.text!) else {
+            print("fuck")
+            return
+        }
+        
+        dateComponents.day = day
+        dateComponents.month = month
+        dateComponents.year = year
+        
+        let date = calendar.date(from: dateComponents)
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "EEEE"
+        
+        if let date = date {
+            let weekDay = dateFormatter.string(from: date)
+            resultLabel.text = weekDay
+        }
     }
 }
 
