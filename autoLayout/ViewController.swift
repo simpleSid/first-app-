@@ -11,15 +11,15 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var dateTF: UITextField!
+    @IBOutlet weak var montTF: UITextField!
+    @IBOutlet weak var yearTF: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-    @IBAction func changeTextInLabel(_ sender: UIButton) {
-        label.text = "Hello, World!"
-    }
     
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    @IBAction func findDay() {
+        
+    }
 }
 
