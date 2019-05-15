@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JRC-n4-EgE">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,61 +15,24 @@
             <objects>
                 <viewController id="JRC-n4-EgE" customClass="ViewController" customModule="autoLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mNy-By-dfv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="751" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Uy-Y2-unl">
-                                <rect key="frame" x="32" y="127" width="38" height="29"/>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekday Finder" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJ1-qm-BR3">
+                                <rect key="frame" x="71.333333333333329" y="78" width="232.33333333333337" height="40"/>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="32"/>
                                 <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DS0-q1-YNV">
-                                <rect key="frame" x="32" y="187" width="58" height="25"/>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
-                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0S-sB-ZDs">
-                                <rect key="frame" x="32" y="240" width="39.5" height="25"/>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
-                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here you will see the day of the week" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxH-Lf-LTr">
-                                <rect key="frame" x="56.5" y="284" width="207" height="91"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="207" id="AQD-gx-qhC"/>
-                                    <constraint firstAttribute="height" constant="91" id="ibB-1f-xKD"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="290" width="343" height="25"/>
                                 <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
                                 <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ViD-V8-oUP">
-                                <rect key="frame" x="122" y="124" width="166" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z3R-E7-AeQ">
-                                <rect key="frame" x="122" y="180" width="166" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NM8-Ee-hxz">
-                                <rect key="frame" x="119.5" y="235" width="168.5" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pP2-D2-uiq">
-                                <rect key="frame" x="131" y="406" width="58" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="58" id="1lm-ie-N91"/>
-                                    <constraint firstAttribute="height" constant="30" id="4xq-lw-Dne"/>
-                                </constraints>
+                                <rect key="frame" x="158.66666666666666" y="331" width="58" height="30"/>
                                 <state key="normal" title="Find day">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -77,41 +40,73 @@
                                     <action selector="findDay" destination="JRC-n4-EgE" eventType="touchUpInside" id="OG3-3H-MNa"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekday Finder" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJ1-qm-BR3">
-                                <rect key="frame" x="44" y="39" width="232.5" height="40"/>
-                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="R9m-5n-xAS"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="32"/>
-                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="u0r-mL-chX">
+                                <rect key="frame" x="16" y="134" width="343" height="140"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="q4t-bD-Eex">
+                                        <rect key="frame" x="0.0" y="0.0" width="57.333333333333336" height="140"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="751" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Uy-Y2-unl">
+                                                <rect key="frame" x="0.0" y="0.0" width="57.333333333333336" height="32"/>
+                                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DS0-q1-YNV">
+                                                <rect key="frame" x="0.0" y="61" width="57.333333333333336" height="25"/>
+                                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0S-sB-ZDs">
+                                                <rect key="frame" x="0.0" y="115" width="57.333333333333336" height="25"/>
+                                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="57.333333333333336" id="rHM-PT-cdI"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="yri-ph-9Fp">
+                                        <rect key="frame" x="72.333333333333343" y="0.0" width="270.66666666666663" height="140"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ViD-V8-oUP">
+                                                <rect key="frame" x="0.0" y="0.0" width="270.66666666666669" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z3R-E7-AeQ">
+                                                <rect key="frame" x="0.0" y="55" width="270.66666666666669" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NM8-Ee-hxz">
+                                                <rect key="frame" x="0.0" y="110" width="270.66666666666669" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.3045046050949049" green="0.5445435446114183" blue="0.68563132509967395" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="z3R-E7-AeQ" firstAttribute="top" secondItem="ViD-V8-oUP" secondAttribute="bottom" constant="26" id="41m-r6-5R2"/>
-                            <constraint firstItem="z3R-E7-AeQ" firstAttribute="leading" secondItem="DS0-q1-YNV" secondAttribute="trailing" constant="32" id="5vd-gU-enJ"/>
-                            <constraint firstItem="Faf-dB-w0q" firstAttribute="trailing" secondItem="ViD-V8-oUP" secondAttribute="trailing" constant="32" id="7Lb-QU-jY3"/>
-                            <constraint firstItem="ViD-V8-oUP" firstAttribute="leading" secondItem="2Uy-Y2-unl" secondAttribute="trailing" constant="52" id="7x1-KZ-fY7"/>
-                            <constraint firstItem="NM8-Ee-hxz" firstAttribute="leading" secondItem="k0S-sB-ZDs" secondAttribute="trailing" constant="48" id="7xr-ui-Wrt"/>
-                            <constraint firstItem="Faf-dB-w0q" firstAttribute="trailing" secondItem="NM8-Ee-hxz" secondAttribute="trailing" constant="32" id="BZI-U6-eZN"/>
-                            <constraint firstItem="nJ1-qm-BR3" firstAttribute="centerX" secondItem="Faf-dB-w0q" secondAttribute="centerX" id="CId-Qh-2mt"/>
-                            <constraint firstItem="2Uy-Y2-unl" firstAttribute="top" secondItem="nJ1-qm-BR3" secondAttribute="bottom" constant="48" id="DaA-4f-qcV"/>
-                            <constraint firstItem="DS0-q1-YNV" firstAttribute="top" secondItem="2Uy-Y2-unl" secondAttribute="bottom" constant="31" id="GPC-Jj-2xc"/>
-                            <constraint firstItem="NM8-Ee-hxz" firstAttribute="top" secondItem="z3R-E7-AeQ" secondAttribute="bottom" constant="25" id="K7b-ZG-1ID"/>
-                            <constraint firstItem="rxH-Lf-LTr" firstAttribute="centerX" secondItem="Faf-dB-w0q" secondAttribute="centerX" id="OVu-d8-zPR"/>
-                            <constraint firstItem="DS0-q1-YNV" firstAttribute="leading" secondItem="Faf-dB-w0q" secondAttribute="leading" constant="32" id="QiT-CH-0qS"/>
-                            <constraint firstItem="NM8-Ee-hxz" firstAttribute="centerY" secondItem="Faf-dB-w0q" secondAttribute="centerY" id="REy-bc-oXY"/>
-                            <constraint firstItem="k0S-sB-ZDs" firstAttribute="leading" secondItem="Faf-dB-w0q" secondAttribute="leading" constant="32" id="SUh-RW-6jb"/>
-                            <constraint firstItem="pP2-D2-uiq" firstAttribute="centerX" secondItem="Faf-dB-w0q" secondAttribute="centerX" id="jLd-ys-eB2"/>
-                            <constraint firstItem="ViD-V8-oUP" firstAttribute="top" secondItem="nJ1-qm-BR3" secondAttribute="bottom" constant="45" id="jxu-BO-TLH"/>
-                            <constraint firstItem="Faf-dB-w0q" firstAttribute="trailing" secondItem="z3R-E7-AeQ" secondAttribute="trailing" constant="32" id="kme-HY-KY4"/>
-                            <constraint firstItem="2Uy-Y2-unl" firstAttribute="leading" secondItem="Faf-dB-w0q" secondAttribute="leading" constant="32" id="mUY-II-tGW"/>
-                            <constraint firstItem="k0S-sB-ZDs" firstAttribute="top" secondItem="DS0-q1-YNV" secondAttribute="bottom" constant="28" id="qQU-en-NSt"/>
-                            <constraint firstItem="pP2-D2-uiq" firstAttribute="top" secondItem="rxH-Lf-LTr" secondAttribute="bottom" constant="31" id="quY-aa-SXl"/>
-                            <constraint firstItem="rxH-Lf-LTr" firstAttribute="top" secondItem="NM8-Ee-hxz" secondAttribute="bottom" constant="19" id="tKT-mS-Lsi"/>
-                            <constraint firstItem="rxH-Lf-LTr" firstAttribute="top" secondItem="k0S-sB-ZDs" secondAttribute="bottom" constant="19" id="yzp-Ej-6Lm"/>
+                            <constraint firstItem="pP2-D2-uiq" firstAttribute="centerX" secondItem="Faf-dB-w0q" secondAttribute="centerX" id="6Z8-Jt-ffX"/>
+                            <constraint firstItem="rxH-Lf-LTr" firstAttribute="top" secondItem="u0r-mL-chX" secondAttribute="bottom" constant="16" id="9ox-hH-csB"/>
+                            <constraint firstItem="u0r-mL-chX" firstAttribute="top" secondItem="nJ1-qm-BR3" secondAttribute="bottom" constant="16" id="BH0-KV-oLT"/>
+                            <constraint firstItem="Faf-dB-w0q" firstAttribute="trailing" secondItem="u0r-mL-chX" secondAttribute="trailing" constant="16" id="CYR-Xl-Ej5"/>
+                            <constraint firstItem="rxH-Lf-LTr" firstAttribute="leading" secondItem="Faf-dB-w0q" secondAttribute="leading" constant="16" id="ET7-Ge-ZnA"/>
+                            <constraint firstItem="nJ1-qm-BR3" firstAttribute="top" secondItem="Faf-dB-w0q" secondAttribute="top" constant="34" id="IGV-Aa-IVK"/>
+                            <constraint firstItem="pP2-D2-uiq" firstAttribute="top" secondItem="rxH-Lf-LTr" secondAttribute="bottom" constant="16" id="MUd-tO-LTN"/>
+                            <constraint firstItem="Faf-dB-w0q" firstAttribute="trailing" secondItem="rxH-Lf-LTr" secondAttribute="trailing" constant="16" id="ZC9-wJ-DL1"/>
+                            <constraint firstItem="nJ1-qm-BR3" firstAttribute="centerX" secondItem="Faf-dB-w0q" secondAttribute="centerX" id="bGS-Rq-FDf"/>
+                            <constraint firstItem="u0r-mL-chX" firstAttribute="leading" secondItem="Faf-dB-w0q" secondAttribute="leading" constant="16" id="skO-Rc-CqN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Faf-dB-w0q"/>
                     </view>
