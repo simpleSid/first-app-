@@ -10,21 +10,27 @@ import UIKit
 
 class ViewController4: UIViewController {
 
+    @IBOutlet weak var celsiusLabel: UILabel!
+    @IBOutlet weak var farenheiteLabel: UILabel!
+    @IBOutlet weak var slider: UISlider! {
+        didSet {
+            slider.value = 0
+            slider.minimumValue = 0
+            slider.maximumValue = 100
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func changeValue(_ sender: UISlider) {
+        let temperatureCelsius = Int(round(slider.value))
+        celsiusLabel.text = "\(temperatureCelsius)ºC"
+        
+        let temperatureFarenheite = Int(round((slider.value * 9 / 5) + 32))
+        farenheiteLabel.text = "\(temperatureFarenheite)ºF"
     }
-    */
-
 }

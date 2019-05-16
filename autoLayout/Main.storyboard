@@ -60,7 +60,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7kB-ag-cXt">
-                                <rect key="frame" x="14" y="438" width="386" height="31"/>
+                                <rect key="frame" x="14" y="437" width="386" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="Plp-rh-Kqo">
                                         <variation key="heightClass=compact-widthClass=regular" constant="439"/>
@@ -77,6 +77,9 @@
                                         <include reference="Plp-rh-Kqo"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="changeValue:" destination="7Is-BI-ti8" eventType="valueChanged" id="yU9-1O-Pt4"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -185,6 +188,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="celsiusLabel" destination="hnK-30-EQ8" id="p0v-h5-iR2"/>
+                        <outlet property="farenheiteLabel" destination="Kga-58-vzD" id="F82-oN-7sZ"/>
+                        <outlet property="slider" destination="7kB-ag-cXt" id="swI-ap-te7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lOb-wc-wyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
