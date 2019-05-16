@@ -20,6 +20,6 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func sendPressed(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "unwindSegue", sender: nil)
     }
 }
