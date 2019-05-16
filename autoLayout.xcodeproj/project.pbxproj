@@ -69,20 +69,52 @@
 			isa = PBXGroup;
 			children = (
 				AA461BB722846DED00911418 /* AppDelegate.swift */,
-				AAF5ECCD228D970D00532709 /* Main.storyboard */,
-				AAF5ECD1228D980000532709 /* SecondViewController.swift */,
-				AAF5ECCF228D972600532709 /* ViewController5.swift */,
-				AAF5ECC9228D560B00532709 /* Main4.storyboard */,
-				AAF5ECCB228D562B00532709 /* ViewController4.swift */,
-				AAC2BB7D228C47AE0062DB12 /* Main3.storyboard */,
-				AA461BB922846DED00911418 /* ViewController3.swift */,
-				AA461BBB22846DED00911418 /* Main1.storyboard */,
-				AA461BC92284A63B00911418 /* Main2.storyboard */,
+				AAF5ECD6228D9D1F00532709 /* passData */,
+				AAF5ECD5228D9D0900532709 /* T-converter */,
+				AAF5ECD4228D9CEE00532709 /* WeekdayFinder */,
+				AAF5ECD3228D9CC300532709 /* autoLayOut */,
 				AA461BBE22846DEF00911418 /* Assets.xcassets */,
 				AA461BC022846DEF00911418 /* LaunchScreen.storyboard */,
 				AA461BC322846DEF00911418 /* Info.plist */,
 			);
 			path = autoLayout;
+			sourceTree = "<group>";
+		};
+		AAF5ECD3228D9CC300532709 /* autoLayOut */ = {
+			isa = PBXGroup;
+			children = (
+				AA461BC92284A63B00911418 /* Main2.storyboard */,
+				AA461BBB22846DED00911418 /* Main1.storyboard */,
+			);
+			path = autoLayOut;
+			sourceTree = "<group>";
+		};
+		AAF5ECD4228D9CEE00532709 /* WeekdayFinder */ = {
+			isa = PBXGroup;
+			children = (
+				AA461BB922846DED00911418 /* ViewController3.swift */,
+				AAC2BB7D228C47AE0062DB12 /* Main3.storyboard */,
+			);
+			path = WeekdayFinder;
+			sourceTree = "<group>";
+		};
+		AAF5ECD5228D9D0900532709 /* T-converter */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5ECCB228D562B00532709 /* ViewController4.swift */,
+				AAF5ECC9228D560B00532709 /* Main4.storyboard */,
+			);
+			path = "T-converter";
+			sourceTree = "<group>";
+		};
+		AAF5ECD6228D9D1F00532709 /* passData */ = {
+			isa = PBXGroup;
+			children = (
+				AAF5ECD1228D980000532709 /* SecondViewController.swift */,
+				AAF5ECCF228D972600532709 /* ViewController5.swift */,
+				AAF5ECCD228D970D00532709 /* Main.storyboard */,
+			);
+			path = passData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

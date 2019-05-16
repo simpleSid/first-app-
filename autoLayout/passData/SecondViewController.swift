@@ -10,7 +10,14 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    var login: String!
+    var password: String!
     @IBOutlet weak var label: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        label.text = login
+    }
     
     @IBAction func sendPressed(_ sender: UIButton) {
         
